@@ -13,5 +13,5 @@ function signup() {
     return;
   }
  
-  alert("Welcome, " + name + "! Signup successful 🎉");
+  window.location.href = "blog.html";
 }
