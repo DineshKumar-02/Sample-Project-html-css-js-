@@ -1,24 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dinesh-Blogs</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1 class="typing">
-        Blog - where you can share and gain knowledge
-    </h1>
 
-    <form id="login" action="blog.html">
-        <h2>Login</h2>
-
-        <input type="text" id="text" placeholder="Enter your name">
-        <input type="email" id="email" placeholder="Enter your email-id">
-        <input type="password" id="password" placeholder="Enter your password">
-
-        <button type="submit">Let's Go</button>
-    </form>
-</div>
+  <div id="signupBox">
+    <h2>📝 Create Account</h2>
+ 
+    <label>Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+ 
+    <label>Email</label>
+    <input type="email" id="email" placeholder="Enter your email">
+ 
+    <label>Age</label>
+    <input type="number" id="age" placeholder="Enter your age">
+ 
+    <p id="error"></p>
+ 
+    <button onclick="signup()">Sign Up</button>
+  </div>
+ 
+  <script src="Script.js"></script>
+ 
 </body>
 </html>
