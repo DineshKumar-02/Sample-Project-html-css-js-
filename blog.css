@@ -1,0 +1,36 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #6c63ff, #a89cff);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.sub {
+  color: #777;
+  font-size: 16px;
+}
